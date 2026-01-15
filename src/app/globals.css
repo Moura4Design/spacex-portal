@@ -123,3 +123,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Added this to prevent the navbar from shifting due to scrollbar changes */
+html { 
+  scrollbar-gutter: stable;
+  overflow-y: scroll; 
+}

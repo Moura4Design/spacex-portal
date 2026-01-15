@@ -8,7 +8,7 @@ Este projeto utiliza variáveis de ambiente para configurar a URL da API GraphQL
 
 Antes de executar a aplicação, é necessário criar o ficheiro .env.local com base no .env.example.
 Preencher a variável no .env.local:
-NEXT_PUBLIC_SPACEX_GRAPHQL_URL=https://api.spacex.land/graphql/
+NEXT_PUBLIC_SPACEX_GRAPHQL=https://spacex-production.up.railway.app/
 
 Tecnologias utilizadas
 

@@ -2,6 +2,14 @@ SpaceX Portal
 
 Projeto frontend desenvolvido em Next.js (App Router) que consome a API GraphQL da SpaceX, permitindo visualizar lançamentos passados de forma responsiva.
 
+Variáveis de ambiente
+
+Este projeto utiliza variáveis de ambiente para configurar a URL da API GraphQL.
+
+Antes de executar a aplicação, é necessário criar o ficheiro .env.local com base no .env.example.
+Preencher a variável no .env.local:
+NEXT_PUBLIC_SPACEX_GRAPHQL_URL=https://api.spacex.land/graphql/
+
 Tecnologias utilizadas
 
 Next.js (App Router)
@@ -33,3 +41,7 @@ Utilizado em componentes interativos e funcionalidades como infinite scroll.
 Testes unitários
 
 Foi implementado 1 teste unitário com Vitest para validar o comportamento de um hook de lógica (infinite scroll).
+
+Testes end-to-end (E2E)
+
+Foi implementado 1 teste E2E simples com Cypress para validar que a aplicação carrega corretamente no browser.

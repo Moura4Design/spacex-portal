@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_SPACEX_GRAPHQL: ${NEXT_PUBLIC_SPACEX_GRAPHQL}
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.local
